@@ -1,0 +1,26 @@
+{
+    "name": "slib",
+    "displayName": "SchemaLib",
+    "description": "Syntax Highlighting for SchemaLib Language for VisualStudio Code",
+    "version": "0.0.1",
+    "publisher": "schemalib",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "schemalib",
+            "aliases": ["SchemaLib", "schemalib"],
+            "extensions": [".slib",".schemalib"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "schemalib",
+            "scopeName": "source.schemalib",
+            "path": "./syntaxes/schemalib.tmLanguage.json"
+        }]
+    }
+}
