@@ -2,7 +2,7 @@
     "name": "slib",
     "displayName": "SchemaLib",
     "description": "Syntax Highlighting for SchemaLib Language for VisualStudio Code",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "schemalib",
     "engines": {
         "vscode": "^1.10.0"
