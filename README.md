@@ -1,6 +1,7 @@
 # .slib .schemalib Extension for Visual Studio
 
-This is an extension for VisualStudio Code.
+This is an extension for VisualStudio Code. 
+For more information about schemalib visit: http://schemalib.com
 
 ## Features
 
