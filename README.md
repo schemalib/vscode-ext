@@ -6,4 +6,8 @@ This is an extension for VisualStudio Code.
 
 - Adds syntax highlighting for SchemaLib Language ( files ending with .slib or .schemalib )
 
+## License
+
+Apache 2.0
+
 
