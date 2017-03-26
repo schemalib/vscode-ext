@@ -220,11 +220,18 @@
 			"name": "constant.character.escape.schemalib"
 		},
 		"fieldAlias": {
-			"match": "[_A-Za-z][_0-9A-Za-z]*:",
-			"name": "variable.other.alias.schemalib"
+			"match": "(?:([_A-Za-z][_0-9A-Za-z]*)\\s+)?(?:[\\-\\+])?(?:([_A-Za-z][_0-9A-Za-z]*)\\s*)+:",
+			"captures": {
+				"1": {
+					"name": "keyword.other"
+				},
+				"2": {
+					"name": "variable.other.alias.schemalib"
+				}
+			}
 		},
 		"metaVars": {
-			"match": "@[_A-Za-z][_0-9A-Za-z]*:",
+			"match": "@[_A-Za-z][_0-9A-Za-z]*\\s*:",
 			"name": "meta.selector"
 		}
 	}
