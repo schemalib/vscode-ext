@@ -123,17 +123,20 @@
 		},
 
 		"arguments": {
-			"name": "meta.arguments",
-			"begin": "\\(",
+			"name": "entity.name.function",
+			"begin": "([_0-9A-Za-z\\.\\/]*)\\s*\\(",
 			"beginCaptures": {
 				"0": {
-					"name": "meta.brace.round.schemalib"
+					"name": "meta.brace.round"
+				},
+				"1": {
+					"name": "entity.name.type"
 				}
 			},
 			"end": "\\)",
 			"endCaptures": {
 				"0": {
-					"name": "meta.brace.round.schemalib"
+					"name": "meta.brace.round"
 				}
 			},
 			"patterns": [
